@@ -1,0 +1,68 @@
+/* ------ dofault setting ------ */
+
+* { margin: 0; padding: 0};
+
+li {list-style: none;}
+
+
+/* ------ gallery View Setting ------ */
+
+
+h2 {
+  margin: 50px 0 70px 0;
+  text-align: center;
+}
+
+.photo {
+  /* margin: 0 auto; */
+  width: 200px; height: 50px;
+  background-color: violet;
+  color: #585858;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.flex_box {
+  padding: 2%;
+  display: flex;
+  flex-wrap: nowrap;
+
+}
+
+.gallery_img {
+  width: 200px; height: 200px;
+  margin-right: 20px;
+}
+
+.gallery_img img{
+  width: 100%; height: 100%;
+  border-radius: 20px;
+}
+
+.view_main {display: none;}
+
+.view_box {
+  width: 50%; height: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* display: none; */
+  border-radius: 20px;
+  z-index: 222;
+}
+
+.view_box img {
+  width: 100%; height: 100%;
+  border-radius: 20px;
+  box-shadow: 3px 3px 25px 10px #cccccc
+}
+
+.delete {
+  font-size: 35px;
+  position: absolute;
+  top: -40px; right: 0;
+  cursor: pointer;
+}
